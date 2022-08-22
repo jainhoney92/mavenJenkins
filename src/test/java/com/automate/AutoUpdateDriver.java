@@ -20,8 +20,11 @@ public class AutoUpdateDriver {
 		if (browserName.equalsIgnoreCase("Chrome")) {
 			driver = obj.getChromeDriver();
 		}
-		if (browserName.equalsIgnoreCase("Firefox")) {
+		else if (browserName.equalsIgnoreCase("Firefox")) {
 			driver = obj.getFireFoxDriver();
+		}
+		else if (browserName.equalsIgnoreCase("Edge")) {
+			driver = obj.getEdgeDriver();
 		}
 		driver.get("https://www.google.co.in/");
 		driver.quit();

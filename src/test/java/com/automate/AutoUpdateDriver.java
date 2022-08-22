@@ -13,7 +13,7 @@ public class AutoUpdateDriver {
 	WebDriver driver;
 
 	@Parameters("Browser")
-	@Test(priority = 3)
+	@Test(priority = 4)
 	public void startBrowser(String browserName) {
 		System.out.println("Parameter value is " + browserName);
 		AutoUpdateDriver obj = new AutoUpdateDriver();

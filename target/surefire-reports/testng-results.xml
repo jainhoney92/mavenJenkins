@@ -2,23 +2,30 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-08-20T23:09:03 IST" name="Automation" finished-at="2022-08-20T23:09:19 IST" duration-ms="15933">
+  <suite started-at="2022-08-22T12:10:19 IST" name="Automation" finished-at="2022-08-22T12:10:29 IST" duration-ms="9539">
     <groups>
     </groups>
-    <test started-at="2022-08-20T23:09:03 IST" name="Basic Test" finished-at="2022-08-20T23:09:19 IST" duration-ms="15933">
+    <test started-at="2022-08-22T12:10:19 IST" name="Basic Test" finished-at="2022-08-22T12:10:29 IST" duration-ms="9539">
       <class name="com.automate.AutoUpdateDriver">
-        <test-method signature="test2()[pri:1, instance:com.automate.AutoUpdateDriver@35ef1869]" started-at="2022-08-20T23:09:04 IST" name="test2" finished-at="2022-08-20T23:09:04 IST" duration-ms="13" status="PASS">
+        <test-method signature="test2()[pri:1, instance:com.automate.AutoUpdateDriver@619713e5]" started-at="2022-08-22T12:10:19 IST" name="test2" finished-at="2022-08-22T12:10:19 IST" duration-ms="10" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method signature="test3()[pri:2, instance:com.automate.AutoUpdateDriver@35ef1869]" started-at="2022-08-20T23:09:04 IST" name="test3" finished-at="2022-08-20T23:09:04 IST" duration-ms="0" status="PASS">
+        <test-method signature="test3()[pri:2, instance:com.automate.AutoUpdateDriver@619713e5]" started-at="2022-08-22T12:10:19 IST" name="test3" finished-at="2022-08-22T12:10:19 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test3 -->
-        <test-method signature="test1()[pri:3, instance:com.automate.AutoUpdateDriver@35ef1869]" started-at="2022-08-20T23:09:04 IST" name="test1" finished-at="2022-08-20T23:09:19 IST" duration-ms="15816" status="PASS">
+        <test-method signature="startBrowser(java.lang.String)[pri:3, instance:com.automate.AutoUpdateDriver@619713e5]" started-at="2022-08-22T12:10:19 IST" name="startBrowser" finished-at="2022-08-22T12:10:29 IST" duration-ms="9448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fireFox]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
+        </test-method> <!-- startBrowser -->
       </class> <!-- com.automate.AutoUpdateDriver -->
     </test> <!-- Basic Test -->
   </suite> <!-- Automation -->

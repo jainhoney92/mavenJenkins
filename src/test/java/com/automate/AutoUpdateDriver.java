@@ -2,6 +2,7 @@ package com.automate;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -37,17 +38,18 @@ public class AutoUpdateDriver {
 	}
 
 	private static WebDriver getChromeDriver() { //
-		// System.setProperty("webdriver.chrome.driver", DRIVER_DIR +
-		// "chromedriver.exe");
 		WebDriverManager.chromedriver().setup();
 		return new ChromeDriver();
 	}
 
 	private static WebDriver getFireFoxDriver() { //
-		// System.setProperty("webdriver.chrome.driver", DRIVER_DIR +
-		// "chromedriver.exe");
 		WebDriverManager.firefoxdriver().setup();
 		return new FirefoxDriver();
+	}
+	
+	private static WebDriver getEdgeDriver() { //
+		WebDriverManager.edgedriver().setup();
+		return new EdgeDriver();
 	}
 
 }
